@@ -1,0 +1,36 @@
+.wrapperHeader {
+  position: sticky;
+  z-index: 5;
+  top: 0;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  gap: 40px;
+  .header {
+    flex: 1;
+    max-width: 140px;
+    cursor: pointer;
+    span {
+      font-weight: 700;
+      font-size: 40px;
+      color: #000;
+    }
+  }
+
+  .searchbar {
+    input {
+      width: 630px;
+      padding-block: 18px;
+      padding-inline: 50px;
+      border-radius: 30px;
+      background: #d9d9d9;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      max-width: 630px;
+    }
+  }
+}
